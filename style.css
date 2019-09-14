@@ -1,28 +1,59 @@
+body {
+	font-size: 14px !important;
+}
+
 :host-context(.platform-linux) .monospace,
 :host-context(.platform-linux) .source-code,
 .platform-linux .monospace,
 .platform-linux .source-code {
-	font-size: 14px !important;
 	font-family: monospace !important;
+	font-size: 14px !important;
+}
+
+.platform-linux .source-code {
+	font-size: 14px !important;
+}
+
+#-webkit-web-inspector #elements-content.source-code {
+	font-size: 14px !important;
+}
+
+::shadow .monospace,
+::shadow .source-code {
+	font-family: monospace !important;
+	font-size: 14px !important;
 }
 
 .CodeMirror pre {
-	font-size: 13px !important;
+	font-size: 14px !important;
 	line-height: 1.4em !important;
+}
+
+.CodeMirror-activeline-gutter {
+	font-size: 13px !important;
+}
+
+.console-eager-preview {
+	font-size: 14px !important;
+}
+
+.console-group,
+.console-user-command,
+.console-message {
+	font-size: 14px !important;
 }
 
 .console-message-text {
 	font-size: 14px !important;
 }
 
-.source-code {
+.monospace {
 	font-size: 14px !important;
 }
 
-.monospace,
-.source-code {
+.platform-linux {
+  font-family: Roboto, Ubuntu, Arial, sans-serif;
 	font-size: 14px !important;
-	font-family: monospace !important;
 }
 
 .pre {
@@ -30,13 +61,6 @@
 	font-family: monospace !important;
 }
 
-::shadow .monospace,
-::shadow .source-code {
-	font-size: 14px !important;
-	font-family: monospace !important;
-}
-
-.platform-linux {
-  font-family: Roboto, Ubuntu, Arial, sans-serif;
+.source-code {
 	font-size: 14px !important;
 }
