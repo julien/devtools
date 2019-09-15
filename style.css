@@ -1,5 +1,5 @@
 body {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 :host-context(.platform-linux) .monospace,
@@ -39,10 +39,7 @@ body {
 
 .console-group,
 .console-user-command,
-.console-message {
-	font-size: 14px !important;
-}
-
+.console-message,
 .console-message-text {
 	font-size: 14px !important;
 }
@@ -52,13 +49,12 @@ body {
 }
 
 .platform-linux {
-  font-family: Roboto, Ubuntu, Arial, sans-serif;
 	font-size: 14px !important;
 }
 
 .pre {
-	font-size: 14px !important;
 	font-family: monospace !important;
+	font-size: 14px !important;
 }
 
 .source-code {
