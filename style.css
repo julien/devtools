@@ -7,25 +7,25 @@ body {
 .platform-linux .monospace,
 .platform-linux .source-code {
 	font-family: monospace !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .platform-linux .source-code {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 #-webkit-web-inspector #elements-content.source-code {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 ::shadow .monospace,
 ::shadow .source-code {
 	font-family: monospace !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .CodeMirror pre {
-	font-size: 14px !important;
+	font-size: 13px !important;
 	line-height: 1.4em !important;
 }
 
@@ -34,29 +34,29 @@ body {
 }
 
 .console-eager-preview {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .console-group,
 .console-user-command,
 .console-message,
 .console-message-text {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .monospace {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .platform-linux {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .pre {
 	font-family: monospace !important;
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
 
 .source-code {
-	font-size: 14px !important;
+	font-size: 13px !important;
 }
