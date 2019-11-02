@@ -2,6 +2,6 @@
 :host-context(.platform-linux) .source-code,
 .platform-linux .monospace,
 body.platform-linux .source-code {
-	font-size: 12px !important;
+	font-size: 13px !important;
 	font-family: monospace !important;
 }
