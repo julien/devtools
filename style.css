@@ -1,6 +1,7 @@
 :host-context(.platform-linux) .monospace,
 :host-context(.platform-linux) .source-code,
 .platform-linux .monospace,
+html.theme-with-dark-background,
 body.platform-linux .source-code {
 	font-size: 13px !important;
 	font-family: monospace !important;
